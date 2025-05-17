@@ -1,0 +1,19 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --check .",
+    "test": "CI=true echo \"Running tests...\" && exit 0",
+    "build": "echo \"Building...\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "prettier": "^3.5.3"
+  }
+}
